@@ -189,3 +189,44 @@
   margin: 0 auto;
   text-align: center;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  margin-top: 2em;
+}
+
+.upgrade {
+  width: 12em;
+  padding: 1.25em;
+  border: 2px solid #d4a24c;
+  border-radius: 12px;
+  background-color: #fff8ec;
+  color: #3b2a14;
+  text-align: center;
+}
+
+.upgrade h3 {
+  margin: 0 0 0.5em;
+}
+
+.upgrade p {
+  margin: 0 0 1em;
+}
+
+button {
+  padding: 0.6em 1.2em;
+  border: none;
+  border-radius: 8px;
+  background-color: #d4a24c;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b8862f;
+}
